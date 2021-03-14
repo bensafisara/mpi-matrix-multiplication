@@ -1,6 +1,6 @@
 
                                       Parallel programming with MPI Homework2.
-
+Bensafi Sarra   Chikh Dounia
 # Matrix Multiplication using MPI
 
 Creation of 4 worker processes. Process 0 initializes matrices a and b randomly, partitions the data, and distributes the partitions to the other workers.
