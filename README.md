@@ -7,7 +7,7 @@ Creation of 4 worker processes. Process 0 initializes matrices a and b randomly,
  Each worker calculates its own partition of the result matrix C.
  After the calculations, Process 0 receives the results from the other processes and displays matrix C on the screen.
 
-# Compile and Run//build&run
+# Compile and Run
 
 First Compile initMatrix with :
 mpicc -o initMatrix initMatrix.c
